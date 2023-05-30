@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>grid</title>
+    <style>
+.container{
+    display:grid;
+    grid-template-areas: "header header header"
+                         "aside section section"
+                         "aside footer footer"
+                         "bottom bottom bottom";
+    grid-template-rows: 50px 400px 100px;
+}
+.item1{
+    grid-area:"header";
+    background-color: red;
+}
+.item2{
+    grid-area:"aside";
+    background-color:green;
+}
+.item3{
+    grid-area:"section";
+    background-color: yellow;
+}
+.item4{
+    grid-area:"footer";
+    background-color:fuchsia;
+}
+.item5{
+    rid-area:"bottom";
+    background-color:aquamarine;
+}
+
+
+    </style>
+    
+</head>
+<body>
+<div class="container">
+    <div class="item1">header</div>
+    <div class="item2">Aside</div>
+    <div class="item3">section</div>
+    <div class="item4">Footer</div>
+    <div class="item5">Bottom</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+
+</html>

@@ -11,11 +11,15 @@
     <h6>Hello</h6>
     <h7>Hello</h7>
 
-    <img src="https://www.fotor.com/blog/how-to-blur-part-of-a-picture/">
+    <img src="https://www.fotor.com/blog/how-to-blur-part-of-a-picture">
 
 
 
 
     </body>
+<<<<<<< HEAD
 
     </html>
+=======
+ </html>
+>>>>>>> 9f7b85accca54494449d3c0ec1622d6838664842
